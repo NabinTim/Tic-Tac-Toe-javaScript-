@@ -44,6 +44,8 @@ h1 {
     cursor: pointer;
     transition: all ease-in-out 0.40s;
     border-radius: 10px;
+    color: black;
+    font-size: 50px;
 }
 
 .cell:hover {
