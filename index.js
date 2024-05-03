@@ -9,7 +9,7 @@ let teamSign = '〇';
 
 function resetGame() {
 
-    title.textContent = 'You are on a Red Team';
+    title.textContent = 'You are on a Blue Team';
     
 
     teamSign = '〇';
