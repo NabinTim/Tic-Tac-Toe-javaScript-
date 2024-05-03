@@ -88,3 +88,12 @@ h1 {
     color: rgb(209, 47, 112);
     text-align: center;
 }
+
+footer {
+    background-color: #cdc45d96;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
