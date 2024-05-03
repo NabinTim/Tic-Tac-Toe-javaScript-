@@ -8,24 +8,16 @@ let teamSign = '〇';
 
 
 function resetGame() {
-
     title.textContent = 'You are on a Blue Team';
-    
-
     teamSign = '〇';
-
-
     cells.forEach(cell => {
         cell.textContent = '';
     });
 }
 
 blueButton.onclick = function() {
-
     title.textContent = 'You are on a Blue Team';
-    
-
-    teamSign = '〇';
+     teamSign = '〇';
 };
 
 
@@ -42,12 +34,7 @@ cells.forEach(cell => {
 });
 
 redButton.onclick = function() {
-
     teamSign = '✗'; 
-    
-
     title.textContent = 'You are on a Red Team';
 };
-
-
 resetButton.onclick = resetGame;
