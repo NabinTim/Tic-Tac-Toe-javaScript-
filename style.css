@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: #232020;
+    background-color: #232220;
+    color: white;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
     overflow-x: hidden;
@@ -96,13 +97,13 @@ h1 {
 }
 
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #e2c15da8;
+    color: #000000;
     padding: 10px;
     text-align: center;
     margin-top: auto;
 }
-@media only screen and (max-width: 472px) {
+@media only screen and (max-width: 431px) {
     /* Styles for phones */
 
     .board {
