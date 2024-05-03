@@ -97,3 +97,34 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@media only screen and (max-width: 472px) {
+
+    .board {
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: repeat(3, 80px);
+    }
+
+    .cell {
+        width: 80px;
+        height: 80px;
+        font-size: 18px;
+    }
+
+    .team {
+        margin-top: 0.5cm;
+    }
+
+    .redTeam,
+    .blueTeam,
+    .reset {
+        font-size: 1em;
+        padding: 6px;
+        margin: 0.5cm;
+    }
+
+    .footer {
+        max-width: 100%;
+        padding: 20px;
+    }
+}
+
