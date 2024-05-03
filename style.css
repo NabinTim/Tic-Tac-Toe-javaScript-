@@ -18,7 +18,7 @@ body {
 
 
 
-/* CSS for the navigation bar */
+
 nav {
     background-color: #333; /* Background color */
     padding: 10px; /* Padding around the navigation */
@@ -81,7 +81,7 @@ h1 {
     border-radius: 10px;
     color: black;
     font-size: 50px;
-    backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
+    backdrop-filter: blur(20px); /* Adjust the blur intensity as needed */
 }
 
 .cell:hover {
