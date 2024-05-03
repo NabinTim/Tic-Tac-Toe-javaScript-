@@ -1,0 +1,90 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(38, 31, 31);
+}
+
+h1 {
+    margin-top: 2cm;
+    text-align: center;
+    color: rgb(196, 107, 107);
+}
+
+.container {
+    margin: auto; 
+    margin-top: 2cm; 
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    justify-content: center; 
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all ease-in-out 0.40s;
+    border-radius: 10px;
+}
+
+.cell:hover {
+    background-color: #a87777;
+}
+
+.team{
+    margin-top: 1cm;
+    text-align: center;
+}
+
+.redTeam{
+    background-color: rgb(243, 81, 81);
+    border: 0px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 1cm;
+    font-size: 1.5em;
+    transition: all ease-in-out 0.20s;
+    color: white;
+}
+.blueTeam{
+    background-color: rgb(70, 107, 189);
+    border: 0px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    margin-right: 1cm;
+    font-size: 1.5em;
+    transition: all ease-in-out 0.20s;
+    color: white;
+}
+.reset{
+    background-color: rgb(194, 151, 42);
+    border: 0px solid black;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    transition: all ease-in-out 0.20s;
+    color: white;
+    text-align: center;
+}
+.redTeam:hover,
+.reset:hover,
+.blueTeam:hover {
+    background-color: rgb(154, 177, 113);
+}
+
+#title{
+    color: rgb(209, 47, 112);
+    text-align: center;
+}
