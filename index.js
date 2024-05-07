@@ -1,3 +1,4 @@
+//Javascript for Tic-Tac-Toe
 const cells = document.querySelectorAll('.cell');
 const blueButton = document.getElementById('blueButton');
 const redButton = document.getElementById('redButton');
