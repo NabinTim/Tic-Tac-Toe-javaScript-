@@ -28,8 +28,10 @@ function cellClickHandler(event) {
         cell.textContent = teamSign; 
         if(teamSign == '〇'){
             teamSign ='✗';
+            title.textContent = 'You are on a Red Team';
         }else{
             teamSign='〇';
+            title.textContent = 'You are on a Blue Team';
         }
     }
 }
