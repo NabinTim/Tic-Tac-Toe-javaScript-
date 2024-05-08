@@ -26,6 +26,11 @@ function cellClickHandler(event) {
     const cell = event.target;
     if (!cell.textContent) { 
         cell.textContent = teamSign; 
+        if(teamSign == '〇'){
+            teamSign ='✗';
+        }else{
+            teamSign='〇';
+        }
     }
 }
 
